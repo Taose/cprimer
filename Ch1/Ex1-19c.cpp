@@ -16,7 +16,7 @@ int main()
 		else //First integer is *bigger*
 			std::cerr << "Error: The first value must be smaller than the second value" << std::endl;
 
-		std::cout << "Please enter two more integers: " << std::endl;
+		std::cout << "Please enter two more integers (ctrl+d to exit): " << std::endl;
 	}
 
 
