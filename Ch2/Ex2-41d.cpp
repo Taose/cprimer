@@ -5,7 +5,29 @@
  *
  * Exercise 1.25 is quite specific, it is impossible to comply with the idea of the exercise
  * and with Exercise 2.41 as the book store program will not compile with Transaction due to
- * different syntax.
+ * different syntax.... and Sales_data.h is vastly more complex.
+ *
+ * However...
+ *
+ * #ifndef TRANSACTION_H
+ * #def TRANSACTION_H
+ *
+ * struct Transaction
+ * {
+ * 		std::string isbn{""};
+ * 		unsigned int qty{0};
+ * 		double price{0.0};
+ * }
+ * #endif
+ *
+ *
+ * May be what the question is asking for.
+ *
+ * Further
+ *
+ * #include "ex2-41d-Transaction.h"
+ *
+ * May be required.
  */
 
 #include <iostream> //cin, cout, endl
